@@ -33,7 +33,7 @@ const ServicesSection = () => {
   return (
     <div className="section-container bg-slate-50">
       <AnimatedSection animation="fade-in">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-block">
             <h2 className="text-sm uppercase tracking-wider text-ethiopia-red font-semibold">Our Services</h2>
             <div className="h-1 w-1/2 bg-ethiopia-gold mx-auto"></div>

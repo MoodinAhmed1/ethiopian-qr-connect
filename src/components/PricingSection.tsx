@@ -82,7 +82,7 @@ const PricingSection = () => {
   return (
     <div className="section-container">
       <AnimatedSection animation="fade-in">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-block">
             <h2 className="text-sm uppercase tracking-wider text-ethiopia-red font-semibold">Pricing Plans</h2>
             <div className="h-1 w-1/2 bg-ethiopia-gold mx-auto"></div>
