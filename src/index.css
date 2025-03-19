@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -81,6 +82,35 @@
   .hover-lift {
     @apply transition-transform duration-300 hover:-translate-y-1;
   }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(6deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(6deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(6deg);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
 }
 
 .no-scrollbar::-webkit-scrollbar {

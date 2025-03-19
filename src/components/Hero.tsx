@@ -1,7 +1,7 @@
-
 import { cn } from '@/lib/utils';
 import { ArrowRight, Globe, QrCode } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
+import BusinessCardCarousel from './BusinessCardCarousel';
 
 const Hero = () => {
   return (
@@ -84,57 +84,8 @@ const Hero = () => {
               <div className="absolute -bottom-5 -left-10 w-40 h-40 bg-ethiopia-pattern opacity-10 rounded-full"></div>
               <div className="absolute top-20 -left-8 w-20 h-20 bg-ethiopia-gold/20 rounded-full animate-pulse-slow"></div>
               
-              {/* Main mockup */}
-              <div className="glass-card max-w-md mx-auto p-5">
-                <div className="rounded-xl overflow-hidden bg-white shadow-lg">
-                  <div className="h-8 bg-ethiopia-red flex items-center px-4 gap-2">
-                    <div className="h-3 w-3 rounded-full bg-white opacity-70"></div>
-                    <div className="h-3 w-3 rounded-full bg-white opacity-70"></div>
-                    <div className="h-3 w-3 rounded-full bg-white opacity-70"></div>
-                  </div>
-                  <div className="p-4">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-10 h-10 rounded-full bg-ethiopia-gold flex items-center justify-center">
-                        <Globe className="w-6 h-6 text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <div className="h-2.5 bg-gray-200 rounded w-24 mb-2"></div>
-                        <div className="h-2 bg-gray-100 rounded w-32"></div>
-                      </div>
-                    </div>
-                    
-                    <div className="space-y-3">
-                      <div className="h-2 bg-gray-200 rounded w-full"></div>
-                      <div className="h-2 bg-gray-200 rounded w-full"></div>
-                      <div className="h-2 bg-gray-200 rounded w-3/4"></div>
-                    </div>
-                    
-                    <div className="mt-6 grid grid-cols-2 gap-2">
-                      <div className="h-12 bg-ethiopia-light rounded flex items-center justify-center">
-                        <QrCode className="w-6 h-6 text-ethiopia-red" />
-                      </div>
-                      <div className="h-12 bg-ethiopia-light rounded">
-                        <div className="h-full flex items-center justify-center">
-                          <div className="space-y-1.5">
-                            <div className="h-1.5 w-12 bg-gray-300 rounded"></div>
-                            <div className="h-1.5 w-16 bg-gray-300 rounded"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="mt-8 mb-4 space-y-3">
-                  <div className="flex items-center gap-4">
-                    <div className="h-10 w-10 rounded-full bg-gray-200"></div>
-                    <div className="space-y-2 flex-1">
-                      <div className="h-2 bg-gray-200 rounded w-full"></div>
-                      <div className="h-2 bg-gray-200 rounded w-3/4"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {/* Business Card Carousel */}
+              <BusinessCardCarousel />
             </div>
             
             {/* Decorative elements */}
