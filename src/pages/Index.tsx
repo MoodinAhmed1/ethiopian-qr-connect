@@ -31,32 +31,32 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about">
+      <section id="about" className="scroll-mt-16">
         <AboutSection />
       </section>
 
       {/* Services Section */}
-      <section id="services">
+      <section id="services" className="scroll-mt-16">
         <ServicesSection />
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing">
+      <section id="pricing" className="scroll-mt-16">
         <PricingSection />
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio">
+      <section id="portfolio" className="scroll-mt-16">
         <PortfolioSection />
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials">
+      <section id="testimonials" className="scroll-mt-16">
         <TestimonialsSection />
       </section>
 
       {/* Contact Section */}
-      <section id="contact">
+      <section id="contact" className="scroll-mt-16">
         <ContactSection />
       </section>
 
