@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 interface AnimatedSectionProps {
   children: React.ReactNode;
   className?: string;
-  animation?: 'fade-in' | 'fade-in-right' | 'fade-in-left';
+  animation?: 'fade-in' | 'fade-in-right' | 'fade-in-left' | 'fade-in-up';
   delay?: number;
 }
 

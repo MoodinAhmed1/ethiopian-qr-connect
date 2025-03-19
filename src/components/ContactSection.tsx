@@ -8,7 +8,7 @@ import AnimatedSection from "./AnimatedSection";
 const ContactSection = () => {
   return (
     <div className="section-container py-16">
-      <AnimatedSection animation="fade-in-up">
+      <AnimatedSection animation="fade-in">
         <div className="text-center mb-12">
           <h2 className="text-sm uppercase tracking-wider text-ethiopia-red font-semibold">
             Contact Us

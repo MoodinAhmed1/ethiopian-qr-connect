@@ -37,7 +37,7 @@ const testimonials = [
 const TestimonialsSection = () => {
   return (
     <div className="section-container">
-      <AnimatedSection animation="fade-in-up">
+      <AnimatedSection animation="fade-in">
         <div className="text-center mb-12">
           <h2 className="text-sm uppercase tracking-wider text-ethiopia-red font-semibold">
             Testimonials
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
         {testimonials.map((testimonial, index) => (
           <AnimatedSection
             key={index}
-            animation="fade-in-up"
+            animation="fade-in"
             delay={index * 100}
           >
             <Card className="h-full bg-white border border-gray-100 shadow-md hover:shadow-lg transition-shadow">
