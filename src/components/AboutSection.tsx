@@ -1,12 +1,11 @@
-
 import { ArrowRight } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 import { Button } from "./ui/button";
 
 const AboutSection = () => {
   return (
-    <div className="section-container">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div className="section-container py-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <AnimatedSection animation="fade-in-right">
           <div className="space-y-4">
             <div className="inline-block">

@@ -17,9 +17,9 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section id="home" className="pt-16">
+      <section id="home" className="pt-10">
         <Hero />
-        <div className="flex justify-center mt-8 mb-4">
+        <div className="flex justify-center mt-4 mb-2">
           <a 
             href="#about" 
             className="flex items-center gap-2 text-ethiopia-brown hover:text-ethiopia-red transition-colors"
@@ -31,32 +31,32 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="scroll-mt-20">
+      <section id="about" className="scroll-mt-16">
         <AboutSection />
       </section>
 
       {/* Services Section */}
-      <section id="services" className="scroll-mt-20">
+      <section id="services" className="scroll-mt-16">
         <ServicesSection />
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="scroll-mt-20">
+      <section id="pricing" className="scroll-mt-16">
         <PricingSection />
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="scroll-mt-20">
+      <section id="portfolio" className="scroll-mt-16">
         <PortfolioSection />
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="scroll-mt-20">
+      <section id="testimonials" className="scroll-mt-16">
         <TestimonialsSection />
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="scroll-mt-20">
+      <section id="contact" className="scroll-mt-16">
         <ContactSection />
       </section>
 

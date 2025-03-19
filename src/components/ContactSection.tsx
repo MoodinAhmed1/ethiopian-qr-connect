@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -7,9 +6,9 @@ import AnimatedSection from "./AnimatedSection";
 
 const ContactSection = () => {
   return (
-    <div className="section-container py-16">
+    <div className="section-container py-12">
       <AnimatedSection animation="fade-in">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="text-sm uppercase tracking-wider text-ethiopia-red font-semibold">
             Contact Us
           </h2>
